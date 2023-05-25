@@ -1,0 +1,30 @@
+.drag_area{
+    position: relative;
+    width: 50%;
+    height: 15em;
+    display: flex;
+    padding: 2em 3em;
+    flex-direction: column;
+    justify-content: center;
+    background-color: antiquewhite;
+    align-items: center;
+    border-radius: 1em;
+    border:1px solid grey;
+
+}
+.drag_over{
+    background-color: rgb(199, 199, 199);
+    transition: all 0.5ms ease;
+}
+.drag_area p{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color:rgb(197, 197, 197);
+}
+#file_input{
+    z-index: 10;
+}
+#progress{
+    width: 65%;
+}
